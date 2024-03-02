@@ -54,9 +54,11 @@ nav .menu-btn i{
     nav .menu-btn i{
         display: block;
     }
+
     #click:checked ~ .menu-btn i::before{
         content: "\f00d";
     }
+    
     nav ul{
         position: fixed;
         top: 80px;
@@ -82,5 +84,5 @@ nav .menu-btn i{
     nav ul li a.active{
     color: cyan;
     background: none;
-}
+  }
 }
